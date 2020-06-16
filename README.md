@@ -18,7 +18,7 @@ Output: 7
 
 Explanation: Because the path 1→3→1→1→1 minimizes the sum.
 ```
-# Implementation 1 : Mutating input array , Time : O(rows * columns) , Space : O(1)
+### Implementation 1 : Mutating input array , Time : O(rows * columns) , Space : O(1)
 ```java
 class Solution {
     public int minPathSum(int[][] grid) {
@@ -41,7 +41,7 @@ class Solution {
 }
 ```
 
-# Implementation 2 : Without Mutation  , Time : O(rows * columns) , Space : O(rows * columns)
+### Implementation 2 : Without Mutation  , Time : O(rows * columns) , Space : O(rows * columns)
 ```java
 class Solution {
     public int minPathSum(int[][] grid) {
